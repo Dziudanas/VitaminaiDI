@@ -14,7 +14,7 @@ from reportlab.lib.utils import simpleSplit
 app = Flask(__name__)
 
 # Įterpk savo Gemini API raktą čia
-API_KEY = "AIzaSyDwf7-WhyAinwgzhKjHUB7obp8oR0U09eM"
+API_KEY = ""
 
 client = genai.Client(api_key=API_KEY, http_options=HttpOptions(api_version="v1"))
 
